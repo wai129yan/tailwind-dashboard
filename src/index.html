@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-row">
+        <div class="flex flex-col bg-gray-50 h-screen justify-between w-64 py-2 px-2">
+
+            <div class="flex items-center justify-between text-gray-600 text-3xl px-5">
+                <b>Reservations</b>
+            </div>
+
+            <div class="flex flex-col flex-auto">
+                <div class="p-2 hover:bg-pink-100">
+                    <div class="flex flex-row space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-800" fill="none"
+                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                        </svg>
+
+                        <h4 class="font-bold text-gray-500 hover:text-pink-600">DashBoard</h4>
+                    </div>
+                </div>
+
+
+                <div class="p-2 hover:bg-pink-100">
+                    <div class="flex flex-row space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-800" fill="none"
+                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+
+
+                        <h4 class="font-bold text-gray-500 hover:text-pink-600">Reservations</h4>
+                    </div>
+                </div>
+                <div class="p-2 hover:bg-pink-100">
+                    <div class="flex flex-row space-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-800" fill="none"
+                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5" />
+                        </svg>
+
+
+                        <h4 class="font-bold text-gray-500 hover:text-pink-600">Services</h4>
+                    </div>
+                </div>
+
+            </div>
+            <!-- button logout -->
+            <div class="flex flex-col">
+                <button class="rounded-full bg-pink-500 py-2 text-white text-lg">logout</button>
+            </div>
+        </div>
+        <!-- second section -->
+        <div class="flex-auto">
+            <div class="flex flex-col">
+                <div class="flex flex-col bg-white">
+                    <div class="flex flex-row space-x-3">
+                        <h4 class="font-bold text-gray-500 p-1">DashBoard</h4>
+                    </div>
+                    <p class="text-gray-400 p-1">25th Nov 2024 | 1st Dec 2024</p>
+                </div>
+                <div class="min-h-screen bg-blue-50">
+                    <div class="mt-8 grid gap-10 lg:grid-cols-3 sm-grid-cols-2 p-4">
+                        <!-- grid -->
+                        <div class="flex items-center bg-white rounded shadow-sm justify-between p-5">
+                            <div>
+                                <div class="text-sm text-gray-400">Check in Today</div>
+                                <div class="text-3xl font-medium text-gray-600">34</div>
+                            </div>
+                            <div class="text-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10 text-pink-800" fill="none"
+                                    viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-white rounded shadow-sm justify-between p-5">
+                            <div>
+                                <div class="text-sm text-gray-400">Check Out Today</div>
+                                <div class="text-3xl font-medium text-gray-600">44</div>
+                            </div>
+                            <div class="text-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10 text-pink-800" fill="none"
+                                    viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+
+
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-white rounded shadow-sm justify-between p-5">
+                            <div>
+                                <div class="text-sm text-gray-400">Total Properties</div>
+                                <div class="text-3xl font-medium text-gray-600">1000</div>
+                            </div>
+                            <div class="text-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10 text-pink-800" fill="none"
+                                    viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                </svg>
+                            </div>
+                        </div>
+                        <!--  grid end here-->
+                    </div>
+                    <!-- another grid -->
+                    <div class="mt-5 grid lg:grid-cols-3 md:grid-cols-2 p-4 gap-3">
+                        <div class="col-span-2 bg-white p-8 flex-col rounded shadow-sm">
+                            <b class="flex flex-row text-gray-500">Property Release Today</b>
+                            <canvas class="p-5" id="chartLine"></canvas>
+                        </div>
+                        <div class="flex flex-col p-8 bg-white rounded shadow-sm">
+                            <b class="flex flex-row text-gray-500">Occupancy Percentage</b>
+                            <canvas class="p-5" id="chartRadar"></canvas>
+                        </div>
+                    </div>
+                    <!-- end here -->
+                    <div class="p-4 font-bold text-gray-600">
+                        Clients
+                    </div>
+                    <div class="grid gap-3b md:cols-1 p-4">
+                        <div class="col-span-2 flex flex-auto bg-white rounded shadow-sm items-center">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th scope="col"
+                                            class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Name</th>
+                                        <th scope="col"
+                                            class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Title</th>
+                                        <th scope="col"
+                                            class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Status</th>
+                                        <th scope="col"
+                                            class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Role</th>
+                                        <th scope="col"
+                                            class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Role</th>
+                                        <th scope="col"
+                                            class="relative px-6 py-3">
+                                            <span class="sr-only">Edit</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="flex items-center">
+                                                <div class="flex-shrink-0 h-10 w-10">
+                                                    <img class="h-10 w-10 rounded-full" src="../rofous-8230881_1280.jpg" alt="">
+                                                </div>
+                                                <div class="ml-4">
+                                                    <div class="text-sm font-medium text-gray-900">Jane Cooper</div>
+                                                    <div class="text-sm text-gray-500">jane.cooper@example.com</div>
+                                                </div>
+
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Action</span>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-500">
+                                            Admin
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            Supervisor
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                            <a href="" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
